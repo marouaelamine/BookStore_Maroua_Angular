@@ -1,0 +1,40 @@
+<div class="col-md-6 offset-md-3">
+    <h3> View Book Details</h3>
+    <div>
+        <div>
+            <p>
+                <span [ngStyle]="{'font-weight':'bold'}">Name: </span>
+                {{book.name}}
+            </p>
+        </div>
+        <div>
+            <p>
+                <span [ngStyle]="{'font-weight':'bold'}">Author: </span>
+                {{book.author}}
+            </p>
+        </div>
+        <div>
+            <p>
+                <span [ngStyle]="{'font-weight':'bold'}">Category: </span>
+                {{book.categories}}
+            </p>
+        </div>
+        <div>
+            <p>
+                <span [ngStyle]="{'font-weight':'bold'}">Isbn: </span>
+                {{book.isbn}}
+            </p>
+        </div>
+        <div>
+            <p>
+                <span [ngStyle]="{'font-weight':'bold'}">Description: </span>
+                {{book.description}}
+            </p>
+        </div>
+        <div >
+            <button type="button" class="btn btn-danger" (click)="onColse()">Go back to list</button>
+        </div>
+         
+    </div>
+    </div>
+    
